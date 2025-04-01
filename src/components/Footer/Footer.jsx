@@ -8,11 +8,16 @@ const Footer = () => {
     <div id="footer" className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-          <img src={footer_logo} alt="" />
+          <div className="">
+            <h1 style={{color:'yellow'}}> AnishKumar Gupta:.....</h1>
+          </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            quibusdam eius reprehenderit alias enim dolore ipsa expedita magni,
-            iusto animi.
+            The MERN Stack is a JavaScript-based technology stack used for
+            building modern web applications. It consists of MongoDB (NoSQL
+            database), Express.js (backend framework), React.js (frontend
+            library), and Node.js (runtime environment). MERN allows developers
+            to use JavaScript for both frontend and backend, ensuring seamless
+            development. 
           </p>
         </div>
         <div className="footer-top-right">

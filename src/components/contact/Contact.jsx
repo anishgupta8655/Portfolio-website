@@ -24,9 +24,12 @@ const Contact = () => {
     if (data.success) {
       setResult("Form Submitted Successfully");
       event.target.reset();
-    } else {
       alert(data.message);
+     
+    } else {
+     
       setResult(data.message);
+      alert(data.message);
     }
   };
 
@@ -58,7 +61,7 @@ const Contact = () => {
         </div>
         <form action="" onSubmit={onSubmit} className="contact-right">
           <label htmlFor="">Your Name</label>
-          <input type="text" placeholder="Enter Your Name" name="name"/> <br />
+          <input type="text" placeholder="Enter Your Name" name="name" /> <br />
           <label htmlFor="">Your Email</label>
           <input
             type="email"

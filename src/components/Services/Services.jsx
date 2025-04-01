@@ -17,7 +17,11 @@ const Services = () => {
               <h3>{service.s_no}</h3>
               <h2>{service.s_name}</h2>
               <p>{service.s_description}</p>
-              <div className="services-readmore">
+              <div
+                className="services-readmore"
+                onClick={() => window.open(service.s_link, "_blank")}
+                style={{ cursor: "pointer" }}
+              >
                 <p>Read More</p>
                 <img src={arrow_icon} alt="" />
               </div>
